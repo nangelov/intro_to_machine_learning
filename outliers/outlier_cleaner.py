@@ -10,8 +10,22 @@ def outlierCleaner(predictions, ages, net_worths):
         Return a list of tuples named cleaned_data where 
         each tuple is of the form (age, net_worth, error).
     """
-    
-    cleaned_data = []
+    import numpy as np
+    cleaned_ages = ages
+    cleaned_net_worths = net_worths
+    errors = [None] * 90
+    errors_abs = [None] * 90
+    for index in range(0,90):
+        errors_abs[index] = abs(predictions[index]-net_worths[index])
+        errors[index] = (predictions[index]-net_worths[index])
+    import operator
+    for i in range(0,8):
+        index, value = max(enumerate(errors_abs), key=operator.itemgetter(1))
+        errors = np.delete(errors,index)
+        errors_abs = np.delete(errors_abs,index)
+        cleaned_ages = np.delete(cleaned_ages,index)
+        cleaned_net_worths = np.delete(cleaned_net_worths,index)
+    cleaned_data = zip(cleaned_ages,cleaned_net_worths,errors)
 
     ### your code goes here
 

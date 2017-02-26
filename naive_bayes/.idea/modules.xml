@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../decision_tree/.idea/decision_tree.iml" filepath="$PROJECT_DIR$/../decision_tree/.idea/decision_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../evaluation/.idea/evaluation.iml" filepath="$PROJECT_DIR$/../evaluation/.idea/evaluation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feature_selection/.idea/feature_selection.iml" filepath="$PROJECT_DIR$/../feature_selection/.idea/feature_selection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../final_project/.idea/final_project.iml" filepath="$PROJECT_DIR$/../final_project/.idea/final_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/naive_bayes.iml" filepath="$PROJECT_DIR$/.idea/naive_bayes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../outliers/.idea/outliers.iml" filepath="$PROJECT_DIR$/../outliers/.idea/outliers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pca/.idea/pca.iml" filepath="$PROJECT_DIR$/../pca/.idea/pca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../svm/.idea/svm.iml" filepath="$PROJECT_DIR$/../svm/.idea/svm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../text_learning/.idea/text_learning.iml" filepath="$PROJECT_DIR$/../text_learning/.idea/text_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../validation/.idea/validation.iml" filepath="$PROJECT_DIR$/../validation/.idea/validation.iml" />
+    </modules>
+  </component>
+</project>

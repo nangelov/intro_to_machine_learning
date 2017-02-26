@@ -38,6 +38,10 @@ labels_train   = labels_train[:150]
 
 
 ### your code goes here
-
+from sklearn import linear_model
+clf = linear_model.Lasso()
+clf.fit(features_test,labels_test)
+clf.predict(features_train)
+print(max(clf.coef_))
 
 

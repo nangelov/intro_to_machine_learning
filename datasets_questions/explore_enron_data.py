@@ -16,7 +16,11 @@
 """
 
 import pickle
-
+import math
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
-
-
+count_email = 0
+for data in enron_data:
+    if 'NaN' == enron_data[data]["total_payments"]:
+        count_email += 1
+print(count_email)
+print(float(count_email)/float(146)*100)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../choose_your_own/.idea/choose_your_own.iml" filepath="$PROJECT_DIR$/../choose_your_own/.idea/choose_your_own.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../datasets_questions/.idea/datasets_questions.iml" filepath="$PROJECT_DIR$/../datasets_questions/.idea/datasets_questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../decision_tree/.idea/decision_tree.iml" filepath="$PROJECT_DIR$/../decision_tree/.idea/decision_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../k_means/.idea/k_means.iml" filepath="$PROJECT_DIR$/../k_means/.idea/k_means.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../outliers/.idea/outliers.iml" filepath="$PROJECT_DIR$/../outliers/.idea/outliers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../regression/.idea/regression.iml" filepath="$PROJECT_DIR$/../regression/.idea/regression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/svm.iml" filepath="$PROJECT_DIR$/.idea/svm.iml" />
+    </modules>
+  </component>
+</project>
